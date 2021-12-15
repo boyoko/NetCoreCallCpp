@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31911.196
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicCallCplus", "DynamicCallCplus\DynamicCallCplus.csproj", "{0529F0A9-865C-4CA5-8EA8-073789493906}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DynamicCallCplus", "DynamicCallCplus\DynamicCallCplus.csproj", "{0529F0A9-865C-4CA5-8EA8-073789493906}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CppDll", "CppDll\CppDll.vcxproj", "{D5560592-F8D7-47B9-A3C7-86D843302AEB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WSServer", "WSServer\WSServer.csproj", "{B0C115D3-5AC2-41FE-BD0E-8C10AFAEE42E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,18 @@ Global
 		{D5560592-F8D7-47B9-A3C7-86D843302AEB}.Release|x64.Build.0 = Release|x64
 		{D5560592-F8D7-47B9-A3C7-86D843302AEB}.Release|x86.ActiveCfg = Release|Win32
 		{D5560592-F8D7-47B9-A3C7-86D843302AEB}.Release|x86.Build.0 = Release|Win32
+		{B0C115D3-5AC2-41FE-BD0E-8C10AFAEE42E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0C115D3-5AC2-41FE-BD0E-8C10AFAEE42E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0C115D3-5AC2-41FE-BD0E-8C10AFAEE42E}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{B0C115D3-5AC2-41FE-BD0E-8C10AFAEE42E}.Debug|x64.Build.0 = Debug|Any CPU
+		{B0C115D3-5AC2-41FE-BD0E-8C10AFAEE42E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{B0C115D3-5AC2-41FE-BD0E-8C10AFAEE42E}.Debug|x86.Build.0 = Debug|Any CPU
+		{B0C115D3-5AC2-41FE-BD0E-8C10AFAEE42E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0C115D3-5AC2-41FE-BD0E-8C10AFAEE42E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0C115D3-5AC2-41FE-BD0E-8C10AFAEE42E}.Release|x64.ActiveCfg = Release|Any CPU
+		{B0C115D3-5AC2-41FE-BD0E-8C10AFAEE42E}.Release|x64.Build.0 = Release|Any CPU
+		{B0C115D3-5AC2-41FE-BD0E-8C10AFAEE42E}.Release|x86.ActiveCfg = Release|Any CPU
+		{B0C115D3-5AC2-41FE-BD0E-8C10AFAEE42E}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
