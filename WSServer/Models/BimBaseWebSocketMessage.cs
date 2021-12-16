@@ -29,4 +29,12 @@ namespace WSServer.Models
     }
 
 
+    [StructLayout(LayoutKind.Sequential, CharSet = CharSet.Ansi)]
+    public struct ScreenPoint
+    {
+        public int x;
+        public int y;
+    }
+
+
 }
